@@ -1,11 +1,12 @@
 # AI-Based Image to Sketch Converter
 
-## 📘 Overview
+##  Overview
 
-This project uses Generative AI with Stable Diffusion and ControlNet (Canny Edge) to transform a normal image into a realistic pencil sketch.  
-It combines the power of diffusion models and edge detection to generate detailed black-and-white sketches from input images.
+This project converts a normal image into a realistic pencil sketch using **Generative AI**.  
+It leverages **Stable Diffusion v1.5** along with **ControlNet (Canny Edge Detection)** to generate detailed black-and-white sketch outputs guided by image edges.
 
-The project runs directly in Google Colab, so no complex setup is required.
+The project is built for **learning and experimentation** to understand diffusion models and conditional image generation.  
+It runs entirely on **Google Colab**, requiring no local setup.
 
 ## 🚀 Features
 
@@ -15,7 +16,7 @@ The project runs directly in Google Colab, so no complex setup is required.
 - Simple and clean side-by-side comparison of original and generated sketch.
 - Automatically downloads the output image.
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 | Component               | Purpose                       |
 |-------------------------|-------------------------------|
@@ -36,7 +37,7 @@ The project runs directly in Google Colab, so no complex setup is required.
 5. The model will generate and display the sketch.
 6. A file named `sketch.png` will automatically download after generation.
 
-## 🧩 Code Explanation
+##  Code Explanation
 
 ### 1. Install and Import Dependencies
 
@@ -70,6 +71,19 @@ The Stable Diffusion model generates a black-and-white sketch guided by the edge
 ### 5. Visualization and Download
 
 The output is displayed beside the original and saved as `sketch.png`.
+
+---
+
+## 🎓 Learning Note
+- This project is intended for **learning and experimentation purposes only**
+- It uses **pre-trained models** from Hugging Face
+- No model training was performed
+- The focus is on understanding:
+  - Diffusion models
+  - ControlNet conditioning
+  - Image-to-image generation workflows
+
+---
 
 ## 💡 Future Enhancements
 
